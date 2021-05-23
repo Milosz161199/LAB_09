@@ -1,0 +1,40 @@
+.navigatemenu {
+	height:1300px;
+	width:250px; 
+	float:left;
+	background-color: #706F73;
+}
+.maincontent {
+	height:200px;
+	float: left;
+	text-align:center;
+}
+.titlecontent {
+	background-color: #706F73;
+	width:100%;
+	height:50px;
+	text-align: center;
+}
+.buttonLED {
+	width: 45px;
+	height: 45px;
+	background-color: rgb(255,255,255);
+	border: 1px solid black;
+	border-radius:12px;
+	margin-bottom: 5px;
+}
+.inputLED {
+	width: 70px;
+	border: 2px solid;
+	border-color: #FF4E6C;
+	border-radius:120px;
+	margin-right:20px;
+}
+.labelClass {
+	font-size:20px;
+	font-family: "Times New Roman", Times, serif;
+}
+.naglowek {
+	font-size:50px;
+	font-family: "Times New Roman", Times, serif;
+}

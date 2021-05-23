@@ -1,0 +1,55 @@
+<html>
+
+<head>
+		<title>TASK 3.</title>
+		<!-- jQuery -->
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+		
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+		
+		<!-- Chart.js library -->
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+		
+		<script type="text/javascript" src="script/zad3_js.js"></script> 
+		<link rel="stylesheet" type="text/css" href="style/zad3_css.css">
+		
+		<meta name="viewport" content="wnameth=device-wnameth, initial-scale=1.0, user-scalable=yes">
+</head>
+
+<body>
+	<div class="titlecontent" style="color:white">
+	<h1>  TASK 3.</h1>
+	<br>
+	</div>
+	<div class="navigatemenu">
+			<img src="fig/Raspberry-Pi-logo.png" style="width:250px;height:200px"/>
+
+	<nav class="nav flex-column">
+	  <a class="btn btn-secondary" href="zad1.html">TASK 1.</a>
+	  <a class="btn btn-secondary" href="zad2.html">TASK 2.</a>
+	  <a class="btn btn-secondary" href="#">TASK 3.</a>
+	</nav>
+	</div>
+	<div class="naglowek">
+	Configuration Menu
+	<form id="postConfig">
+		<div>
+		<br>
+		
+			<label class="labelClass">IP Address: <br> <input type="text" id="IP_address_id" name="IP_address" class="inputIP"></input></label>
+			<br>
+			<label class="labelClass">Sample Time (ms): <br> <input type="number" id="Sample_time_id" name="Sample_time" class="inputSampl"></input></label>
+			<br>
+			<label class="labelClass">Max. number of samples: <br> <input type="number" id="Max_number_of_samples_id" name="Max_number_of_samples" class="inputSampl"></input></label>
+			<br>
+			<label class="labelClass">API version: <br> <input type="number" id="API_version_id" name="API_version" class="inputSampl"></input></label>
+			<div style="margin-left:275px">
+			<button type="submit" class="btn btn-secondary">SET CONFIG</button>
+		
+		</div>
+	</form>
+</body>
+
+</html>
