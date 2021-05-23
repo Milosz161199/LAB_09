@@ -201,7 +201,7 @@ function chartInit()
 }
 
 $(document).ready(() => { 
-	//ajaxJSON_Config();
+	ajaxJSON_Config();
 	
 	chartInit();
 	
